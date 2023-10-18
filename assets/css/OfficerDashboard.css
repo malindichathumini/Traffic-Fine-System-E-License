@@ -1,0 +1,380 @@
+#bd1{
+    background-color:#272762;
+}
+h4{
+    margin-left:1250px;
+    padding-top:5px;
+    margin-bottom:5px;
+    font-size:18px;
+    color:#fff;
+}        
+.header{
+   
+    height:50px;
+    position: relative;
+    padding: 15px;
+    background-color:#efeff3;
+}
+#hed1{
+   
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align:left;
+    font-size: 22px;
+}
+.sidebar {
+    position: fixed; /* Fixed position */
+    width: 230px;
+    height: 100%; /* Occupy full height of the viewport */
+    padding: 15px;
+    background-color: #272762;
+}
+
+.col-sm-3 {
+    /* Add some padding to the right to create space for the fixed sidebar */
+    padding-right: 250px; /* Adjust this value according to your needs */
+}
+
+#imglogo{
+    margin-top:-40px;
+    width:200px;
+    height:200px;
+}
+#btnaccount{
+    margin-left:-20px;
+    width:235px;
+    height:60px;
+    text-align:center;
+    padding:0;
+    font-weight:bold;
+    color: #fff;
+}
+#btnaccount:hover{
+    background-color: #c55970;
+}
+#btnaddfine{
+    margin-left:-20px;
+    width:235px;
+    height:60px;
+    text-align:center;
+    padding:0;
+    font-weight:bold;
+    color: #fff;
+}
+#btnaddfine:hover{
+    background-color: #c55970;
+}
+#btneLicense{
+    margin-left:-20px;
+    width:235px;
+    height:60px;
+    text-align:center;
+    padding:0;
+    font-weight:bold;
+    color: #fff;
+}
+#btneLicense:hover{
+    background-color: #c55970;
+}
+#btnNotifications{
+    margin-left:-20px;
+    width:235px;
+    height:60px;
+    text-align:center;
+    padding:0;
+    font-weight:bold;
+    color: #fff;
+
+}
+#btnNotifications:hover{
+    background-color: #c55970;
+}
+#btnhelp{
+    margin-left:-20px;
+    width:235px;
+    height:60px;
+    text-align:center;
+    padding:0;
+    font-weight:bold;
+    color: #fff;
+}
+#btnhelp:hover{
+    background-color: #c55970;
+}
+#btnlogout{
+    margin-left:-15px;
+    margin-top:35px;
+    width:230px;
+    height:60px;
+    background-color:#272762;
+    color:#fff;
+}
+#btnlogout:hover{
+    background-color: #c55970;
+}
+/*--------------| Account Section|---------------*/
+.account{
+    height:100vh;
+    width:100%px;
+    position: relative;
+    margin-left:-160px;   
+    padding: 15px;
+    background-color:lightgray;  
+}
+#txtpassword{    
+width:300px;
+border-radius:20px;
+background:transparent;
+text-align:center; 
+ }
+#txtnewpassword{
+    width:300px;
+    margin-left:20px;
+    border-radius:20px;
+    background:transparent;
+    text-align:center; 
+}
+#txtconfpassword{
+    width:300px;
+    border-radius:20px;
+    background:transparent;
+    text-align:center; 
+}
+#btnchangepw{
+    margin-left:280px;
+    border-radius:20px;
+    width:150px;
+    height:30px;
+    background-color:#1F1AAD;
+    color:#fff;
+}
+
+#btndelreq{
+    width:150px;
+    height:30px;
+    background-color:#ED1C24;
+    color:#fff;
+}
+#btndelreq:hover{
+    background-color:#ED546F;
+}
+ /*--------------| Add Fine Section|---------------*/
+.addfine{
+    height:100vh;
+    width:100%px;
+    position: relative;
+    margin-left:-160px;   
+    padding: 15px;            
+    background-image:url(assets/img/bg4.jpg); 
+}
+.icon{
+    width: 100px;
+    margin-left: 450px;
+    float: left;
+    margin-top: -500px;
+}
+.frmaddpaper{
+    width:400px;
+    height:550px;
+    background-color:#CFCFCF;
+    margin-top:200px;
+    margin-left:50px;
+    border-radius:20px;
+}    
+#hed2{
+color:#fff;
+font-weight:bold;
+margin-top:-200px;
+margin-left:130px;    
+font-size:30px;
+}
+#date{
+    width: 200px;
+    font-size: 14px;
+    color: black;
+    font-weight:bold;
+    background-color: transparent;
+    margin : 6px;
+    padding: 5px;
+    border-radius: 20px;
+}
+#time{
+    width: 200px;
+    font-size: 14px;
+    color: black;
+    font-weight:bold;
+    background-color: transparent;
+    margin : 6px;
+    padding: 5px;
+    border-radius: 20px;
+}
+#offience{
+    width: 300px;
+    font-size: 14px;
+    color: black;
+    font-weight:bold;
+    background-color: transparent;
+    margin : 6px;
+    padding: 5px;
+    border-radius: 20px;
+}
+#fine_amount{
+    width: 200px;
+    font-size: 14px;
+    color: black;
+    font-weight:bold;
+    background-color: transparent;
+    margin : 6px;
+    padding: 5px;
+    border-radius: 20px;
+}
+#license_number{
+    width: 200px;
+    font-size: 14px;
+    color: black;
+    font-weight:bold;
+    background-color: transparent;
+    margin : 6px;
+    padding: 5px;
+    border-radius: 20px;
+}
+#police_officer_id{
+    width: 200px;
+    font-size: 14px;
+    color: black;
+    font-weight:bold;
+    background-color: transparent;
+    margin : 6px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.btnclear{
+    width: 100px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(232, 131, 7);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.btnclear:hover{
+    background-color: #ba5b18;
+}
+.btnsubmit{
+    width: 100px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(40, 85, 219);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.btnsubmit:hover{
+    background-color: rgb(19, 7, 94);
+}
+/*--------------| E-License Section|---------------*/
+.elicense{
+    height:100vh;
+    width:100%px;
+    position: relative;
+    margin-left:-160px;   
+    padding: 15px;
+    background-color:lightgray;
+}
+#txtlicenseno{
+    width:300px;
+    border-radius:20px;
+    background:transparent;
+    text-align:center; 
+}
+#btnsearch{
+    width: 100px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(40, 85, 219);
+    margin-left: 320px;
+    padding: 5px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+#btnsearch:hover{
+    background-color: rgb(19, 7, 94);
+}
+/*--------------|Help Section|-----------------*/
+.help{             
+    height:100vh;
+    width:100%px;
+    position: relative;
+    margin-left:-160px;   
+    padding: 15px;
+    background-color:lightgray;    
+}
+#gifsent{
+    margin-left:700px;
+    margin-top:-470px;    
+    width:500px;
+    height:400px;
+}
+#helpfrm{
+    margin-top:10px;
+    border-radius:20px;
+    margin-left:100px;
+    width:400px;
+    height:500px;
+    background-color:#404040;
+}
+#lblname{
+    margin-top:30px;
+    margin-left:40px;
+    color:#fff;
+}
+#txtname{
+    margin-left:40px;
+    width:300px;
+    height:35px;
+    border-radius:20px;
+    background:#fff;
+    text-align:center;     
+}
+#lblemail{
+    margin-top:5px;
+    margin-left:40px;
+    color:#fff;
+}
+#txtemail{
+    margin-left:40px;
+    width:300px;
+    height:35px;
+    border-radius:20px;
+    background:#fff;
+    text-align:center;     
+}
+#lblmsg{
+    margin-top:5px;
+    margin-left:40px;
+    color:#fff;
+}
+#txtmsg{
+    margin-left:40px;
+    width:300px;
+    height:100px;
+    border-radius:20px;
+    background:#fff;
+    text-align:center;     
+}
+#btnsend{
+    margin-left:40px;
+    width:300px;
+    height:35px;
+    
+
+}

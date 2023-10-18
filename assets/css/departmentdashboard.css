@@ -1,0 +1,270 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(to top rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    background-position: center;
+    background-size: cover;
+    
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    background-color: #190441;
+    margin: auto;
+    z-index: 1000; 
+}
+.icon{
+   width: 200px;
+   float: left;
+   height: 70px; 
+}
+.logo{
+    width: 110px;
+    height: 80px;
+    padding-left: 20px;
+    float: left;
+    padding-top: -50px;
+    background: transparent;
+}
+.hed1{
+    padding-top: -5px;
+    padding-left: -600px;
+    color:#fff;
+    font-size:28px;
+}
+.menu{        
+    width: 800px;
+    float: left;
+    margin-left: 50px;
+    height: 70x;    
+}
+ul{
+    float: left;
+    padding-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 16px; 
+} 
+ul li a{
+   text-decoration: none;
+   color: #ffff;
+   font-family: arial;
+   font-weight: bold;
+   transition: 0.5s ease-in-out;
+} 
+#btnlogout{
+    margin-left:-100px;
+    margin-top: -30px;    
+    width: 100px;
+    height:30px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    background:transparent;
+    border-radius:20px;
+    color:#fff;
+    transition: 0.5s ease-in-out;
+   
+}
+#btnlogout:hover{
+    color: #060A6E;
+    background:lightskyblue;
+}
+
+ul li a:hover{
+    color: #060A6E;
+}
+
+/*--------------| Approve Users |-----------------*/
+#logins{
+    
+    background-image:url(assets/img/bg5.jpg);
+    width:100%;
+    height:100vh;
+    position: absolute;
+    background-repeat:none;
+}
+.heduser1{
+    text-align:center;
+    font-weight:bold;
+    font-size:35px;
+    background-color: #e24242;
+    color:#fff;
+}
+.usertable{
+    padding-left:50px;
+    padding-top:100px;
+}
+#txtusername{
+    margin-left:1000px;
+    width:300px;
+    border-radius:20px;
+    background:transparent;
+    text-align:center;
+}
+#btnApprove{
+    margin-left:1180px;
+    border-radius:20px;
+    width:120px;
+    height:30px;
+    background-color:#1F1AAD;
+    color:#fff;
+}
+#lbluername{
+    font-size:20px;
+    margin-left:1000px;
+    margin-top:10px;
+    margin-bottom:40px;
+}
+#approveIcon{
+    width:300px;
+    height:300px;
+    margin-left:1050px;
+    margin-top:-200px;
+}
+/*------------------| Update Fine Table |------------------*/
+
+#hedFine1{
+    margin-top:-50px;
+    text-align:center;
+    font-weight:bold;
+    font-size:35px;
+    background-color: #e24242;
+    color:#fff;
+}
+#Addfine{
+    margin-top:100vh;
+    background-image:url(assets/img/bg5.jpg);
+    width:100%;
+    height:100vh;
+    position: absolute;
+    background-repeat:none;    
+}
+#updateIcon{
+    width:300px;
+    height:300px;
+    margin-left:1000px;
+    margin-top:-700px; 
+}
+#txtfinename{
+    margin-left:1000px;
+    width:300px;
+    border-radius:20px;
+    background:transparent;
+    text-align:center;
+}
+#txtfineAmount{
+    margin-left:1000px;
+    width:300px;
+    border-radius:20px;
+    background:transparent;
+    text-align:center; 
+}
+#lblfineName{
+    font-size:20px;
+    margin-left:1000px;
+    margin-top:-200px;
+    margin-bottom:40px;
+}
+#lblfineAmount{
+    font-size:20px;
+    margin-left:1000px;
+    margin-top:10px;
+    margin-bottom:40px;
+}
+#btnAddfine{
+    margin-left:1010px;
+    border-radius:20px;
+    width:120px;
+    height:30px;
+    background-color:#1F1AAD;
+    color:#fff;
+}
+#btnUpdatefine{
+    margin-left:30px;
+    border-radius:20px;
+    width:120px;
+    height:30px;
+    background-color:#1F1AAD;
+    color:#fff;
+
+}
+.finetable{
+    padding-left:100px;
+    padding-top:100px;
+}
+/*------------------| Payments |------------------*/
+
+#hedPayments1{
+    margin-top:-50px;
+    text-align:center;
+    font-weight:bold;
+    font-size:35px;
+    background-color: #e24242;
+    color:#fff;
+}
+#payments{
+    margin-top:200vh;
+   background-image:url(assets/img/bg4.jpg);
+   background-color:#fff;
+    width:100%;
+    height:100vh;
+    position: absolute;
+    background-repeat:none;    
+}
+.styled-table{
+    margin-left:250px;
+    margin-bottom:50px;
+    border:2px;
+    width:900px;
+    background-color:blue;
+    text-align:center;
+    color:#fff;
+}
+#td{
+    background-color:lightgray;
+    color:black;
+}
+#bar-chart-container{
+    padding-left:300px;
+    padding-right:300px;
+    width:10px;
+    height:10px;
+}
+#th{
+    background-color:blue;
+    text-align:center;
+    color:#fff;
+}
+#t2{
+    margin-left:400px;
+}
+#clkview{
+       
+    width: 100px;
+    height:30px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    background:blue;
+    border-radius:20px;
+    color:#fff;
+    transition: 0.5s ease-in-out;
+}
+#clkview:hover{
+    background:lightskyblue;
+    color:black;
+}

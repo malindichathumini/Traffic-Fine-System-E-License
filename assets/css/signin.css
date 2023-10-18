@@ -1,0 +1,104 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+.mainbg{
+    width: 100%;
+    background-image: url(assets/img/bg3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.icon{
+    width: 400px;
+    float: left;
+    height: 150px; 
+}
+.icon h3{
+    width: 400px;
+    font-family: Comic Sans MS;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color:#fff;
+    font-size: 30px;
+    background-color: transparent;
+    margin-top: 250px;
+    margin-left: 200px;
+    padding:10px;
+}
+
+.form{
+    width: 350px;
+    height: 280px;
+    background:linear-gradient(to top rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+    border: 10px;
+    padding: 20px;
+}
+.form h2{
+    width: 300px;
+    font-family: Anydore;
+    text-align: center;
+    color: #fff;
+    font-size: 48px;
+    background-color: transparent;
+    margin: 10px;
+    margin-top:20px;
+    padding:20px;
+}
+.form p{
+    color: #fff;
+    text-align: center;
+}
+.txtusername{
+    width: 300px;
+    font-size: 18px;
+    text-align: center;
+    font-weight:bold;
+    color:#fff;
+    background-color: transparent;
+    margin : 8px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.txtpassword{
+    width: 300px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    font-weight:bold;
+    background-color: transparent;
+    margin : 8px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.btnlogin{
+    width: 300px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin: 15px;
+    color: #fff;
+    background-color: #191048;
+    padding: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: o.4s;
+}
+.btnlogin :hover{
+    background: #296ddb;
+    color: #d3b20b;
+}
+#para1{
+    color: #fff;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+#hed3{
+    color: black;
+}
